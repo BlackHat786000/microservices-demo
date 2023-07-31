@@ -80,7 +80,7 @@ URL and Response Structure
 ---------------------------
 currency-exchange
 
-`
+```json
 {
    "id":10001,
    "from":"USD",
@@ -88,11 +88,11 @@ currency-exchange
    "conversionMultiple":65.00,
    "environment":"8000 instance-id"
 }
-`
+```
 
 currency-conversion
 
-`
+```json
 {
   "id": 10001,
   "from": "USD",
@@ -102,7 +102,7 @@ currency-conversion
   "totalCalculatedAmount": 650.00,
   "environment": "8000 instance-id"
 }
-`
+```
 
 Application	URL
 ----------------
